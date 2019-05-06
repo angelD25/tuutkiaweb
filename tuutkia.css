@@ -1,0 +1,333 @@
+html,body,#head{
+	height: 100%;
+
+}
+
+#head{
+	background: url("Images/saveimg.jpg") no-repeat fixed center;
+	background-size: cover;  	
+}
+
+	#navigation{
+    	border:1px solid black;
+    	background-color: black;
+    	opacity:0.5;
+	}
+
+		#logo{
+			height:8vh;
+			width: 5vw;
+		}
+
+		#collapsebtn{
+			background-color: white;
+			height:5vh;
+			width:10vw;
+		}
+
+		#collapsebtn > div{
+			width: 20px;
+ 			 height: 1.5px;
+ 			 background-color: black;
+ 			 margin-left:0;
+ 			 margin-right:0;
+ 			 margin-top: 3px;
+ 			 margin-bottom: 3px;
+		}
+
+		#collapsiblenavbar{
+			display: flex;
+			flex-direction:row;
+		}
+
+		#navigation > div > #nav1{
+			
+		}
+
+		#navigation > div > #nav2{
+  			justify-content:flex-end;
+  			
+		}
+
+			#navigation > div > ul > li > a{
+				color: white;
+				font-weight: bold;
+				font-size: 80%;
+			}
+
+
+	#captions{
+		position: relative;
+		margin-top: 25%;
+		
+	}
+
+		#captions > h1{
+			font-size:3.5vw;
+			
+		}
+
+		#captions > h4{
+			font-size:2.5vw;
+			
+		}
+
+		#captions > h1, #captions > h4{
+			color: white;
+			font-family: Adamina;
+		}
+
+		#modals{
+			text-align: center;
+			margin-top:5vh;
+			/*border:1px solid black;*/
+		}
+
+		#modals > a{
+			color: white;
+			font-size:1vh;
+			display: inline-block;
+			margin:20px 25px;
+		}
+		#logincontent{
+			text-align: center;
+		}
+		#signupcontent{
+			text-align: center;
+		}
+	
+#aboutus{
+	width:100%;
+	
+	margin-bottom: 15px;
+}
+
+	#about{
+			
+			margin-top: 10px;
+		}
+		#about > h3,#about>p{
+  			font-family: Times New Roman;
+  			color:black;
+  			text-align: center;
+  		}
+
+  		#about > h3
+  		{
+  			font-size:3.5vh;
+  			font-weight: bold;
+  		}
+
+
+  		#about > p
+  		{
+  			font-size:85%;
+  		}
+
+	
+
+
+	#imgrow{
+		display: -ms-flexbox; /* IE10 */
+  		display: flex;
+  		-ms-flex-wrap: wrap; /* IE10 */
+  		flex-wrap: wrap;
+  		padding: 0 4px;
+  		
+
+  		
+	}
+		#imgcol1,#imgcol2,#imgcol3{
+			 -ms-flex: 33%; /* IE10 */
+ 			 flex: 33%;
+			  max-width: 33%;
+  			
+		}
+		.over{
+			position: relative;
+			max-width: 400px;
+		}
+
+		#imgcol1 > .container > img,#imgcol2 >.container> img,#imgcol3 >.container > img{
+			margin-top: 10px;
+  			/*vertical-align: middle;*/
+  			margin-left: 15px;
+  			margin-bottom: 10px;
+
+		}
+
+		.overlay{
+  			/*vertical-align: middle;*/
+  			/*margin-left: 15px;
+  			margin-bottom: 5px;*/
+			top: 0;
+			margin-top: 10px;
+  			/*vertical-align: middle;*/
+  			margin-left: 30px;
+  			margin-bottom: 10px;
+
+  			bottom: 0;
+  			left: 0;
+  			right: 0;
+  			position: absolute;
+			/*height:100%;*/
+			/*width: 100%;*/
+			opacity:0;
+			 transition: .3s ease;
+  			background-color: black;
+  		}
+
+
+		.over:hover .overlay{
+			opacity: 0.9;
+		}
+
+		.icon {
+			top:50%;
+			left:50%;
+			position: absolute;
+			transform: translate(-50%,-50%);
+ 			-ms-transform: translate(-50%,-50%);
+ 			text-align: center;
+ 			/*border:1px solid pink;*/
+
+ 		}
+
+ 		.icon > div{
+ 			color: white;
+ 			font-family: Adamina;
+ 			font-size:50%;
+
+ 		}
+
+ 		.icon > img{
+ 			/*margin-top: 15px;*/
+ 			width:50%;
+ 			height:35%;
+ 		}
+
+
+
+
+ 	#platform{
+ 			display: block;
+ 			text-align: center;
+ 			background: url("Images/yellowback.jpg") no-repeat fixed center;
+			background-size: cover;  
+			color: white;
+			font-family: Adamina;
+			font-size: 70%;
+ 	}
+
+ 		#platform>h2{
+ 			position: relative;
+ 			/*font-family: Adamina;
+ 			font-size: 2.5vw;*/
+ 			font-size: 5vh;
+ 		}
+
+ 		#platform > h4{
+ 			position: relative;
+ 			/*font-family: Adamina;
+ 			font-size: 1.5vw;*/
+ 			font-size: 3vh;
+ 		}
+ 		
+ 		#platform > h2, #platform > h4{
+ 			text-align: center;
+ 			/*color:white;*/
+ 		}
+
+ 		#platform > div{
+ 			width:95%;
+ 			margin-top: 5px;
+ 			margin-left: 30px;
+ 			padding-right:30px; 
+ 			
+ 		}
+ 		#platform >div > div{
+ 			text-align: center;
+ 			display: block;
+ 			border: 0px solid grey;
+ 			padding: 20px 20px;
+ 		}
+
+
+ 		#platform > div > div >.panel-body > img {
+ 			height: 25vh;
+ 			width: 15vw;
+ 			position: relative;
+ 		}
+ 		#platform >div > div > .panel-body >div{
+ 			height: 20vh;
+ 			width: 100%;
+ 			position: relative;
+ 			
+ 		}
+
+
+ 		#platform > div > div >.panel-body> iframe{
+ 			display: block;
+ 			border: 3px solid white;
+ 			width: 100%;
+ 			height:50vh;
+ 			position: relative;
+
+ 		}
+ 		#fiframe{
+ 			
+ 		}
+ 		#siframe{
+ 			
+ 			
+ 		}
+
+ 		/*#platform > #extravid{
+ 			margin-top:5vh;
+ 			width: 100%;
+ 			padding: 20px 20px;
+ 			text-align: center;
+ 		}
+
+ 		#extravid > iframe{
+ 			height: 50vh;
+ 			width: 50vw;
+ 		}*/
+
+ 		#you{
+ 			margin-top: 5vh;
+ 			
+ 			border: 0px solid blue;
+ 		}
+
+ 		#you> img{
+ 		display: inline;
+ 		height:15%;
+ 		width: 15%;	
+ 		border:0px solid yellow;
+ 		}
+
+ 		#txt{
+ 			font-size: 2.5vh;
+ 			margin-left: 10px;
+ 		}
+
+ 		#platform > button{
+ 			display: inline-block;
+ 			margin-top: 5vh;
+ 			
+ 			opacity: 0.7;
+ 			color:black;
+ 			font-family: Adamina;
+ 			font-size:3vh;
+ 			margin-bottom: 5vh;
+ 		}
+
+  #comments{
+  	text-align: center;
+  	border:1px solid yellow;
+  }
+
+  #commentform{
+  	border:1px solid black;
+  }
