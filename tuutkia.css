@@ -40,9 +40,7 @@ html,body,#head{
 			flex-direction:row;
 		}
 
-		#navigation > div > #nav1{
-			
-		}
+		#navigation > div > #nav1{}
 
 		#navigation > div > #nav2{
   			justify-content:flex-end;
