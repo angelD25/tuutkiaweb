@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tuutkia LLC</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Mystylesheet -->
+	<link rel="stylesheet" href="tuutkia.css"> 
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- icon gallery -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- font gallery -->
+	<link href='https://fonts.googleapis.com/css?family=Adamina' rel='stylesheet'>
+	
+</head>
+
+<body>
+	<!-- <script>
+
+	
+		if(window.innerWidth == screen.width  && window.innerHeight == screen.height)
+		{
+ 			document.getElementById('#collapsebtn').style.display = "none";
+		}
+		else
+		{
+			document.getElementById('#collapsebtn').style.display = "block";
+		}
+
+	</script> -->
+	<div class="container-fluid" id="head">
+		<nav class="navbar navbar-expand-sm" id="navigation">
+			
+  					<img class="navbar-brand" src="Images/logo.png" id="logo"></img>
+ 				 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" id="collapsebtn">
+ 			  			<div></div>
+ 			  			<div></div>
+ 			  			<div></div>
+ 					 </button>
+ 				
+
+ 				 <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    				<ul class="navbar-nav" id="nav1">
+      					<li class="nav-item">
+      					  <a class="nav-link" href="#">HOME</a>
+     					 </li>
+     					 <li class="nav-item">
+        					<a class="nav-link" href="#">HOWITWORKS</a>
+      					</li>
+      					<li class="nav-item">
+      					  <a class="nav-link" href="#">SOLUTIONS</a>
+      					</li> 
+      					<li class="nav-item">
+      					  <a class="nav-link" href="#">REVIEWS</a>
+      					</li> 
+      					<li class="nav-item">
+      					  <a class="nav-link" href="#">CONTACT US</a>
+      					</li>     
+    				</ul>
+
+    				<ul class="navbar-nav" id="nav2">
+      					<li class="nav-item">
+      					  <a class="nav-link" href="#">
+      					  	<i class="fa fa-handshake-o" style="font-size:24px"></i>
+      					  </a>
+     				 	</li>
+     				 	<li class="nav-item">
+        					<a class="nav-link" href="#">
+        						<i class="fa fa-user-circle-o" style="font-size:24px"></i>
+        					</a>
+      					</li>   
+    				</ul>
+  				</div>  
+  			
+		</nav>
+		<div class="container-fluid" id="captions"> 
+			<h4 style="text-align:center">Home of the LeadExchange</h4> 
+			<h1 style="text-align:center">Universal Marketplace for Referrals and Contacts</h1>
+      		<div id="modals">
+      			<a  href="#" data-toggle="modal" data-target="#myModal1">
+      				<i class="fa fa-handshake-o" style="font-size:20px">Join Us</i>
+      			</a>
+      			<div id="myModal1" class="modal fade" role="dialog">
+ 					 <div class="modal-dialog">
+ 			 	    	 <div class="modal-content">
+     			 			<div class="modal-header">
+     			 				<h4>Create Your Account</h4>
+       			 				<button type="button" class="close" data-dismiss="modal">&times;</button>
+   			    			</div>
+     					 <div class="modal-body">
+     					 	<div class="container-fluid" id="sigupcontent">
+      						  <form class="form-horizontal" action="" id="sigupform">
+      						  	<div class="form-group row">
+      						  	  <label class="col-sm-4">First name:</label>
+      						  	  <div class="col-sm-8">
+      						  	  	<input type="text" name="firstname">
+      						  	  </div>
+      						  	</div>
+
+  								 <div class="form-group row">
+  								 	<label class="col-sm-4">Last name:</label>
+  								 	<div class="col-sm-8">
+  								 		<input type="text" name="lastname">
+  								 	</div>
+  								 </div>
+
+  								 <div class="form-group row">
+  								 	<label class="col-sm-4">Email:</label>
+  								 	<div class="col-sm-8">
+  								 		<input type="email" name="email">
+  								 	</div>
+  								 </div>
+
+  								 <div class="form-group row">
+  									 <label class="col-sm-4">Password:</label>
+  									 <div class="col-sm-8">
+  									 	<input type="Password" name="Password">
+  									 </div>
+  								</div>
+
+  								<div class="form-group row">
+  								 	<label class="col-sm-4">Confirm Pwd:</label>
+  								 	<div class="col-sm-8">
+  								 		<input type="Password" name="Password">
+  								 	</div>
+  								</div>
+
+  								 <div class="form-group row">
+  								 	<div class="col-sm-offset-2 col-sm-10">
+  								 		<button type="button" class="btn btn-success">Submit</button>
+  									</div>
+  								</div>
+      						  </form>
+      						 </div>
+     					 </div>
+     					 <div class="modal-footer">
+      						  <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+      					</div>
+   					 </div>
+
+ 				    </div>
+				</div>
+
+
+        		<a  href="#" data-toggle="modal" data-target="#myModal2">
+        			<i class="fa fa-user-circle-o" style="font-size:20px">Login</i>
+       			</a>
+       			<div id="myModal2" class="modal fade" role="dialog">
+ 					 <div class="modal-dialog">
+ 			 	    	 <div class="modal-content">
+     			 			
+     			 			<div class="modal-header">
+     			 				<h4>Sign in to Your Account</h4>
+       			 				<button type="button" class="close" data-dismiss="modal">&times;</button>
+   			    			</div>
+     						
+     						 <div class="modal-body">
+      						  <div class="container-fluid" id="logincontent">
+      						  <form class="form-horizontal" action="" id="loginform">
+
+  								 <div class="form-group row">
+  								 	<label class="col-sm-4">Email:</label>
+  								 	<div class="col-sm-8">
+  								 		<input type="email" name="email">
+  								 	</div>
+  								 </div>
+
+  								 <div class="form-group row">
+  									 <label class="col-sm-4">Password:</label>
+  									 <div class="col-sm-8">
+  									 	<input type="Password" name="Password">
+  									 </div>
+  								</div>
+
+  								<div class="form-group row">
+  								 	<div class="col-sm-offset-2 col-sm-10">
+  								 		<button type="button" class="btn btn-success">Login</button>
+  									</div>
+  								</div>
+  								</div>
+      						  </form>
+      						 </div>
+     					 	</div>
+     						
+     						 <div class="modal-footer">
+      						 	 <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+      						</div>
+   					 </div>
+
+ 				    </div>
+				</div>
+       		</div>
+		</div>
+		<!-- Javascript for typewrite h4 and h1-->
+	</div>
+	
+
+	<div class="container-fluid" id="aboutus">
+	<div class="container-fluid" id="about">
+		<h3>ABOUT US</h3>
+		<p>Tuutkia is a Silicon Valley-based company focused on bringing value to sales related communities, non-sales communities, and sales/marketing organizations. Our team consists of sales and marketing veterans who bring a wealth of knowledge from major corporations such as Cisco, Oracle, and Disney; small-medium-sized enterprises; and start-ups. As business owners, we understand the demands placed on sales professionals every day. Our applications provide sales people with an effective and easier way to do business.</p>
+	</div>
+
+
+	<div class="container-fluid" id="imgrow">
+ 		 <div class="column" id="imgcol1">
+    		<div class="container over">
+    			<img src="Images/jobseekers.png" style="width:100%">
+    			<div class="overlay">
+    				<div class="icon">
+    					 <div class="text">Job Seekers</div>
+     					 <img src="Images/download.png"> 
+    				</div>
+  				</div>
+  			</div>
+  			<div class="container over">
+   				<img src="Images/parttime.png" style="width:100%">
+   				<div class="overlay">
+    				<div class="icon">
+     					 <div class="text">Part-time Workers</div>
+     					 <img src="Images/particon.png"> 
+    				</div>
+  				</div>
+  			</div>
+  		 </div>
+  		 <div class="class" id="imgcol2">
+  		 	<div class="container over">
+  		 		<img src="Images/workathome.png" style="width:100%" class="image">
+  		 		<div class="overlay">
+    				<div class="icon">
+     					 <div class="text">Home-Workers</div>
+     					 <img src="Images/homeicon.png"> 
+    				</div>
+  				</div>
+  			</div>
+  		 	<div class="container over">
+  		 		<img src="Images/sales.png" style="width:100%">
+  		 		<div class="overlay">
+    				<div class="icon">
+     					 <div class="text">Sales Representative</div>
+     					 <img src="Images/salesicon.png"> 
+    				</div>
+  				</div>
+  			</div>
+  		 </div>
+  		 <div class="column" id="imgcol3">
+  		 	<div class="container over">
+    			<img src="Images/smallbusiness.png" style="width:100%">
+    			<div class="overlay">
+    				<div class="icon">
+     					 <div class="text">Small Business</div>
+     					 <img src="Images/smallicon.png"> 
+    				</div>
+  				</div>
+  			</div>
+  			<div class="container over">
+    			<img src="Images/retirees.png" style="width:100%">
+    			<div class="overlay">
+    				<div class="icon">
+     					 <div class="text">Retired ones</div>
+     					 <img src="Images/oldicon.jpg"> 
+    				</div>
+  				</div>
+  			</div>
+  		 </div>
+	</div>
+	</div>
+<!-- <hr/> -->
+	<div class="container-fluid" id="platform">
+		<h2>The LeadsXchange</h2>
+		<h4>Here is How it Works</h4>
+
+		<div class="row panel-group">
+			<div class="col-sm-6 panel">
+				<div class="panel-body">
+				<img src="Images/leads-1.png">
+				<div class="text"><b style="color: #ffff00; font-size:4vh;">Leads</b> are businesses or individuals you know that are in need of goods or services. This could be a student looking for a tutor, a friend looking for a plumber or financial advice, maybe even your favorite restaurateur looking for tables.
+				</div>
+				<iframe src="https://www.youtube.com/embed/5JNr4-j1DWE" id="fiframe"></iframe>
+				</div>
+			</div>
+			<div class="col-sm-6 panel">
+				<div class="panel-body">
+				<img src="Images/buyer.png">
+				<div class="text"><b style="color: #ffff00;font-size:4vh;">Buyers </b>are professionals that are going to provide the desired goods and services to leads or connect the leads to businesses and individuals that offer those goods and services.
+				</div>
+				<iframe src="https://www.youtube.com/embed/fOcFEusbPjA" id="siframe"></iframe>
+				</div>
+			</div>
+		</div>
+		<!-- <div id="extravid">
+			<iframe src="https://www.youtube.com/embed/2tX-Vodp2ww"></iframe>
+		</div>
+		 -->
+		 <div class="container" id="you">
+			<img src="Images/you.png" >
+			<h6 class="text" id="txt">
+				<b style="color: #ffff00; font-size:4vh;">You</b> set a price for your leads and sell them to buyers that are eager to provide their goods or services.Buyers and you can then negoitiate the price for your leads until both parties are satisfied.Once the sale is complete, you collect your money. And best of all.IT’S FREE!
+			</h6>				
+		</div>
+		<button id="signup" class="btn btn-success" data-target="#myModal1" data-toggle="modal">Sign up</button>
+	</div>
+	<hr/>
+
+	
+
+		<div class="container-fluid" id="comments">
+  				<form class="" action="" id="commentform">
+      					<div class="form-group row">
+      						<label class="col-sm-4">First name</label>
+      						<div class="col-sm-8">
+      						  	<input type="text" name="firstname" class="form-control">
+      						</div>
+      					</div>
+
+  						<div class="form-group row">
+  							<label class="col-sm-4">Last name</label>
+  							<div class="col-sm-8">
+  								<input type="text" name="lastname" class="form-control">
+  							</div>
+  						</div>
+
+  						<div class="form-group row">
+  							<label class="col-sm-4">Email</label>
+  							<div class="col-sm-8">
+  								<input type="email" name="email" class="form-control">
+  							</div>
+  						</div>
+
+  						<div class="form-group row">
+  							<label class="col-sm-4">Message</label>
+  							<div class="col-sm-8">
+  								<textarea class="form-control" rows="5"></textarea>
+  							</div>
+  						</div>
+
+  						<div class="form-group row">
+  							<div class="col-sm-offset-6 col-sm-6">
+  								<button type="button" class="btn btn-success">Submit</button>
+  							</div>
+  						</div>
+      				</form>
+      			</div>
+
+
+
+	<script type="text/javascript">
+		
+	</script>
+</body>
+</html>
